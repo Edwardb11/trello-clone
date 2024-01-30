@@ -6,17 +6,21 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './pages/login/login.component';
 import { BtnComponent } from './components/btn/btn.component';
 import { BoardsComponent } from './pages/boards/boards.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { OverlayModule } from '@angular/cdk/overlay';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     BtnComponent,
-    BoardsComponent
+    BoardsComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    OverlayModule
   ],
   providers: [],
   bootstrap: [AppComponent]
