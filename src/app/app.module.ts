@@ -13,6 +13,8 @@ import { OverlayModule } from '@angular/cdk/overlay';
 import {CdkAccordionModule} from '@angular/cdk/accordion';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { DialogModule } from '@angular/cdk/dialog';
+import { CdkTableModule } from '@angular/cdk/table';
+
 import { BoardComponent } from './pages/board/board.component';
 import { TodoDialogComponent } from './components/todo-dialog/todo-dialog.component';
 import { ScrollComponent } from './pages/scroll/scroll.component';
@@ -39,7 +41,8 @@ import { TableComponent } from './pages/table/table.component';
     CdkAccordionModule,
     DragDropModule,
     DialogModule,
-    HttpClientModule
+    HttpClientModule,
+    CdkTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
