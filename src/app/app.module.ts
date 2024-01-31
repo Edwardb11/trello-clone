@@ -17,6 +17,7 @@ import { BoardComponent } from './pages/board/board.component';
 import { TodoDialogComponent } from './components/todo-dialog/todo-dialog.component';
 import { ScrollComponent } from './pages/scroll/scroll.component';
 import { HttpClientModule } from '@angular/common/http';
+import { TableComponent } from './pages/table/table.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { HttpClientModule } from '@angular/common/http';
     NavbarComponent,
     BoardComponent,
     TodoDialogComponent,
-    ScrollComponent
+    ScrollComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,
